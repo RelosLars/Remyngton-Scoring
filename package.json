@@ -1,0 +1,17 @@
+{
+  "name": "rmtc",
+  "version": "1.0.0",
+  "description": "this program will automatically calculate the points scored for each player in the remyngton cup",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lars",
+  "license": "ISC",
+  "dependencies": {
+    "convert-json-to-csv": "^1.0.0",
+    "discord.js": "^11.3.2",
+    "fast-csv": "^2.4.1",
+    "snekfetch": "^3.6.4"
+  }
+}
