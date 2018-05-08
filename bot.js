@@ -105,7 +105,7 @@ bot.on("message", async message => {
 
             .pipe(ws); 
             // Results soll Lobbyname und Mapname beinhalten
-            message.channel.send('Here are the results of the lobby' +  json.match.name +  '\nMap: ' + Mapname + " [" + DiffName + "]", { //mit args die parameter abfragen und diese in die api abfrage einfügen
+            message.channel.send('Here are the results of the lobby ' +  json.match.name +  '\nMap: ' + Mapname + " [" + DiffName + "]", { //mit args die parameter abfragen und diese in die api abfrage einfügen
             	files: [
 				    './Results ' + json.match.name + ' ' + Mapname + ' [' + DiffName + '].csv'
 				]
