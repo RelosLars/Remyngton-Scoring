@@ -1,4 +1,8 @@
+"scripts": {
+  "start": "node bot.js"
+},
 {
+  
   "name": "rmtc",
   "version": "1.0.0",
   "description": "this program will automatically calculate the points scored for each player in the remyngton cup",
@@ -14,7 +18,5 @@
     "fast-csv": "^2.4.1",
     "snekfetch": "^3.6.4"
   }
-  "scripts": {
-  "start": "node bot.js"
-}
+  
 }
