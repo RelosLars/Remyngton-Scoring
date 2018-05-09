@@ -17,8 +17,6 @@ const apiMap = "https://osu.ppy.sh/api/get_beatmaps"
 
 var csv = require('fast-csv');
 
-server.listen process.env.PORT || 5000
-
 bot.on("ready", async () => {
 	console.log(`Bot is ready! ${bot.user.username}`);
 });
