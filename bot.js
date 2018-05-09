@@ -16,13 +16,8 @@ const api = "https://osu.ppy.sh/api/get_match"
 const apiMap = "https://osu.ppy.sh/api/get_beatmaps"
 
 var csv = require('fast-csv');
-http = require 'http'
-handle = (req, res) -> res.end "hit"
-
-server = http.createServer handle
 
 server.listen process.env.PORT || 5000
-
 
 bot.on("ready", async () => {
 	console.log(`Bot is ready! ${bot.user.username}`);
