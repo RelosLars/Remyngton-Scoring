@@ -4,6 +4,7 @@
   "description": "this program will automatically calculate the points scored for each player in the remyngton cup",
   "main": "bot.js",
   "scripts": {
+    "start": "node bot.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "lars",
