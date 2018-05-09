@@ -5,7 +5,7 @@ const fs = require("fs");
 const prefix = botsettings.prefix;
 
 const bot = new Discord.Client();
-const k = "0db10863146202c12ca6f6987c98f1ec9d629421";
+const k = process.env.apiKey;
 const u = "7209831";
 const m = "0";
 
@@ -105,7 +105,7 @@ bot.on("message", async message => {
 
             .pipe(ws); 
             // Results soll Lobbyname und Mapname beinhalten
-            message.channel.send('Here are the results of the lobby ' +  json.match.name +  '\nMap: ' + Mapname + " [" + DiffName + "]", { //mit args die parameter abfragen und diese in die api abfrage einfügen
+            message.channel.send('Here are the results of the lobby' +  json.match.name +  '\nMap: ' + Mapname + " [" + DiffName + "]", { //mit args die parameter abfragen und diese in die api abfrage einfügen
             	files: [
 				    './Results ' + json.match.name + ' ' + Mapname + ' [' + DiffName + '].csv'
 				]
