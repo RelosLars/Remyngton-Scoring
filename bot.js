@@ -16,10 +16,10 @@ const api = "https://osu.ppy.sh/api/get_match"
 const apiMap = "https://osu.ppy.sh/api/get_beatmaps"
 
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
+/*app.listen(PORT, () => {
     console.log(`Our app is running on port ${ PORT }`);
 });
-
+*/
 var csv = require('fast-csv');
 
 bot.on("ready", async () => {
